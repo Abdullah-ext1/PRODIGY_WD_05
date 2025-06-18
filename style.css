@@ -85,21 +85,31 @@ body::before {
 
 /*section*/
 .informationofweather {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    padding: 20px 0px;
+   
 }
 
 .location {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
 }
 .city-name{
-    padding-left: 6px;
+    
     font-weight: 550;
 }
 .date{
     font-size: 14px;
     color: rgb(255, 255, 255, 0.75);
 }
+
+/*second section */
+
+
+.abt-weather{ 
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+} 
