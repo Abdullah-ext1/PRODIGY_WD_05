@@ -85,31 +85,105 @@ body::before {
 
 /*section*/
 .informationofweather {
-   
+    margin: 20px 0px;
+}
+
+.location-date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
 .location {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
+    gap: 10px;
 
 }
 .city-name{
-    
     font-weight: 550;
 }
 .date{
+   
     font-size: 14px;
     color: rgb(255, 255, 255, 0.75);
 }
-
-/*second section */
-
-
 .abt-weather{ 
-     display: flex;
+    display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;  
 } 
+/*Forcast item*/
+.forcastItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-half{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+.drop{
+    margin-right: 5px;
+    
+}
+.hum{
+    font-size: 14px;
+}
+.wind-icon{
+    margin-right: 5px;
+    
+}
+.secondhalf{
+    display: flex;
+    align-items: center;
+    justify-content: column;
+    font-size: 15px; 
+}
+
+
+.forcast-items-container{
+    display: flex;
+    margin: 45px 0px;
+    gap: 15px;
+    overflow: scroll;
+    padding-bottom: 12px;
+    
+
+}
+.forcast-items-container::-webkit-scrollbar{
+    height: 10px; 
+    width: 0px;
+}
+
+.forcast-items-container::-webkit-scrollbar-track{
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 99px;
+}
+.forcast-items-container::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 99px;
+}
+
+.forcast-items{
+    display: flex;
+    flex-direction: column;
+    min-width: 70px;
+    padding : 8px;
+    gap: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    transition: 0.3s background;
+
+}
+.forcast-items:hover{
+    background: rgba(255, 255, 255, 0.15);
+}
+.thunder-img{
+width: 35px;
+height: 35px;
+}
+
