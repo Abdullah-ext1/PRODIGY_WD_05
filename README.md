@@ -1,35 +1,96 @@
-# PRODIGY_WD_05
 
-# 🌦️ Weather Web App (Under Development)
+# 🌤️ Weather Web App
 
-This is a basic weather web app currently under development. It will allow users to search for any city and get real-time weather data using a weather API.
-
----
-
-## 🛠️ Technologies Used
-
-* HTML
-* CSS
-* JavaScript (to be added)
-* Weather API (like OpenWeatherMap – to be integrated)
+A responsive weather web application that allows users to search for current weather conditions and a 5-day forecast by city name. Built using **HTML**, **CSS**, and **JavaScript** with data fetched from the **OpenWeatherMap API**.
 
 ---
 
-## 📌 Features Planned
+## 🔗 Live Demo
 
-* ✅ Basic layout with input and result section
-* ⏳ Fetch weather using city name
-* ⏳ Display temperature, condition, humidity, and wind
-* ⏳ Responsive mobile-first design
-* ⏳ Weather icons and error handling
+> _Add your deployed link here (e.g. GitHub Pages, Netlify)_
 
 ---
 
-## 🚧 Current Status
+## 📸 Screenshot
 
-* [x] HTML structure created
-* [x] Basic CSS styling started
-* [ ] JavaScript functionality pending
-* [ ] API integration in progress
+> _Insert your app screenshot here_  
+![Weather App Screenshot](./assets/screenshot.png)
 
 ---
+
+## ⚙️ Features
+
+- 🔍 Search weather by city
+- 📍 Display current temperature, humidity, and wind speed
+- 🕒 5-day forecast with weather icons
+- 🌙 Light glassmorphism UI with responsive design
+- 📦 API integration using `fetch()` and async/await
+
+---
+
+## 🧑‍💻 Technologies Used
+
+- HTML5
+- CSS3 (Flexbox, Grid, Glassmorphism)
+- JavaScript (ES6+)
+- [OpenWeatherMap API](https://openweathermap.org/api)
+
+---
+
+## 📁 Folder Structure
+
+```
+/weather-app
+│
+├── index.html
+├── style.css
+├── script.js
+├── /assets
+│   ├── /weather (weather icons)
+│   └── background.jpg / screenshot.png
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/yourusername/weather-web-app.git
+cd weather-web-app
+```
+
+### 2. Add API Key
+
+Get a free API key from [OpenWeatherMap](https://openweathermap.org/api) and add it in your `script.js`:
+
+```js
+const apiKey = 'YOUR_API_KEY_HERE';
+```
+
+### 3. Run Locally
+
+Simply open `index.html` in your browser.
+
+---
+
+## 📌 Future Improvements
+
+- 🌍 Add geolocation support for current location
+- 📅 Add hourly forecast
+- 🌙 Dark mode toggle
+- 🔔 Error handling for invalid cities
+
+---
+
+## 🙌 Acknowledgements
+
+- [OpenWeatherMap](https://openweathermap.org/)
+- Inspired by various UI design concepts from Dribbble and Behance
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
