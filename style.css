@@ -187,3 +187,25 @@ width: 35px;
 height: 35px;
 }
 
+/*Search message*/
+.seacrch-img{
+   width: fit-content;
+    height: 180px;
+}
+.searchCity-message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 55px;
+  
+}
+.message{
+padding-top: 20px;
+
+}
+.error-msg img{
+width: fit-content;
+    height: 180px;
+}

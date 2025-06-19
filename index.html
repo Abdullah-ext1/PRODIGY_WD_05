@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Web Application</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=location_on" />
 
+       
 
 </head>
 
@@ -23,7 +25,7 @@
                 <img src="assets/search.svg " alt="+">
             </button>
         </header>
-        <section class="informationofweather">
+        <section class="informationofweather" style ="display: none;"> 
             <div class="location-date">
                 <div class="location">
                     <span class="material-symbols-outlined">
@@ -36,7 +38,7 @@
 
 
             <div class="abt-weather">
-                <div class="weathersummary">
+                <div class="weather-summary">
                     <img src="assets/weather/clouds.svg" alt="">
                 </div>
                 <div class="degree-condition">
@@ -94,10 +96,25 @@
                     <h4 class="forcast-temp">29 °C</h4>
                 </div>
             </div>
-
-        </section>
-
-
+            
+         </section> 
+         <section class="searchCity-message">
+            <img class="seacrch-img" src="assets/message/search-city.png" >
+            <div>
+                <h1 class="message">Search city</h1>
+            <h4 class="random-message">Find Out Weather Condition Of the City</h4>
+        </div>
+        </section> 
+        
+        <!-- <section class="searchCity-message">
+               <img src="assets/message/not-found.png" class="seacrch-img" >
+                <div>
+                <h1 class="message">Search city</h1>
+            <h4 class="random-message">Find Out Weather Condition Of the City</h4>
+        </div>
+            
+        </section> -->
+        
     </main>
 </body>
 
