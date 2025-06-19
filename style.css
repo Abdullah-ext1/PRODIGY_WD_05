@@ -119,6 +119,7 @@ body::before {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 15px;
 }
 .first-half{
     display: flex;
@@ -192,7 +193,7 @@ height: 35px;
    width: fit-content;
     height: 180px;
 }
-.searchCity-message{
+.search-city{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,6 +201,14 @@ height: 35px;
     text-align: center;
     padding-top: 55px;
   
+}
+.not-found{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 55px;
 }
 .message{
 padding-top: 20px;
