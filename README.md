@@ -7,15 +7,6 @@ A responsive weather web application that allows users to search for current wea
 
 ## 🔗 Live Demo
 
-> _Add your deployed link here (e.g. GitHub Pages, Netlify)_
-
----
-
-## 📸 Screenshot
-
-> _Insert your app screenshot here_  
-![Weather App Screenshot](./assets/screenshot.png)
-
 ---
 
 ## ⚙️ Features
