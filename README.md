@@ -6,7 +6,7 @@ A responsive weather web application that allows users to search for current wea
 ---
 
 ## 🔗 Live Demo
-
+ - https://abdullah-ext1.github.io/PRODIGY_WD_05/
 ---
 
 ## ⚙️ Features
